@@ -62,13 +62,13 @@ class PastSettings(BaseModel):
 
 class LoginConfig(BaseModel):
 
-    API_ID: int = 0
-    API_HASH: str = ""
+    API_ID: int = 21572824
+    API_HASH: str = "cc88cfb3d1cc2d0c9baea879e0fc62b0"
     user_type: int = 0  # 0:bot, 1:user
     phone_no: int = 91
     USERNAME: str = ""
     SESSION_STRING: str = ""
-    BOT_TOKEN: str = ""
+    BOT_TOKEN: str = "7972685797:AAFBRH_fST5MN6RtRrTh2U0gisqDAazAXaQ"
 
 
 class BotMessages(BaseModel):
